@@ -269,9 +269,9 @@ main {
 }
 
 /* Móviles pequeños */
-@media (max-width: 480px) {
+@media (max-width: 365px 617px) {
     .header-content h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .header-content p {
@@ -279,7 +279,7 @@ main {
     }
 
     .siman-1 h2 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .siman-1 p {
@@ -287,7 +287,7 @@ main {
     }
 
     .siman-2 img {
-        width: 100%;
+        width: 50%;
         margin-bottom: 10px;
     }
 
@@ -297,6 +297,6 @@ main {
     }
 
     .navbar li {
-        margin: 10px 0;
+        margin: 5px 0;
     }
 }
