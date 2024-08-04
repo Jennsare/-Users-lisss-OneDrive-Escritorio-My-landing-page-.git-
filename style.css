@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-    background-image: url();
+    background-image: url(https://th.bing.com/th/id/R.67cb9cfecd9f4b8adf9c28c75ea8785f?rik=f9SoTaT2HCBrPg&pid=ImgRaw&r=0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,7 +100,7 @@ body {
 }
 
 .header-Info h1{ 
-    color: crimson;
+    color: white;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 800;
@@ -111,8 +111,8 @@ body {
 
 
 .header-Info p{
-    color: brown;
-    font-size: 20px;
+    color: white;
+    font-size: 30px;
     text-transform: capitalize;
     margin-bottom: 70px;
 }
@@ -270,63 +270,93 @@ main {
 
 /* Móviles pequeños */
 
-    @media (max-width: 360px) {
+    @media (max-width: 576px) {
         .header-content h1  {
           padding: .8rem;
           justify-content: space-between;
         }
 
+        .btn-1 {
+            padding: 8px 20px;
+            font-size: 16px; /* Tamaño de fuente más pequeño */
+        }
+    
+        .btn-2 {
+            padding: 6px 20px; /* Menor padding para el botón secundario */
+            font-size: 16px; /* Tamaño de fuente más pequeño */
+        }
+        .menu .logo {
+            margin-left: 0; /* Quitar el margen izquierdo */
+            margin-bottom: 10px; /* Añadir un margen inferior para separar del resto del contenido */
+        }
+    
+        .menu .logo img {
+            width: 30px; /* Reducir el tamaño del logo */
+        }
+    }
+
     .header-content p {
-        font-size: 8px;
+        font-size: 10px;
     }
-
-    .menu {
-        padding: 10px 15px;
-    }
-
-    .menu .logo img {
-        width: 45px;
-    }
-
-    .menu .navbar ul li a {
-        padding: 18px;
-        font-size: 17px;
-    }
-
-    .header-Info h1 {
-        font-size: 28px;
-    }
-
-    .header-Info p {
-        font-size: 19px;
-    }
-
-    .btn-1 {
+    .btn-1{
+        display: inline-block;
         padding: 10px ;
-        font-size: 15px;
+        border-radius: 10px;
+        background-color: crimson;
+        font-size: 10px;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+
+    .siman-1 h2 {
+        font-size: 20px;
     }
 
-    .btn-2 {
-        padding: 5px 20px;
-        font-size: 12px;
-    }
-
-    .siman-1, .siman-2 {
-        flex: 1 1 48%;
+    .siman-1 p {
+        font-size: 10px;
     }
 
     .siman-2 img {
-        width: 95%;
+        width: 45%;
+        margin-bottom: 8px;
     }
 
-    .social-media img {
-        height: 35px;
-        margin: 0 15px;
-    }
+    nav ul li {
+        margin: 0.2rem;
+      }
+    
 
-    .app-links img {
-        height: 35px;
-        margin: 0 8px;
+    .navbar li {
+        margin: 0.2rem;
+    }
+    .footer-links {
+        display: flex;
+        justify-content: space-around;
+        background-color: #f2f2f2;
+        padding: 20px 0;
+    }
+    
+    .footer-links div {
+        width: 30%;
+    }
+    
+    .footer-links h3 {
+        color: #b82526;
+        font-size: 12px;
+    }
+    
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-links ul li {
+        margin: 5px ;
+    }
+    
+    .footer-links ul li a {
+        color: #000;
+        text-decoration: none;
     }
 }
-    
