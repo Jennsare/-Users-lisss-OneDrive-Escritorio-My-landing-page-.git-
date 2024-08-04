@@ -270,7 +270,7 @@ main {
 
 /* Móviles pequeños */
 
-    @media (max-width: 576px) {
+    @media (max-width: 360px) {
         .header-content h1  {
           padding: .8rem;
           justify-content: space-between;
@@ -310,5 +310,34 @@ main {
 
     .navbar li {
         margin: 0.2rem;
+    }
+    .footer-links {
+        display: flex;
+        justify-content: space-around;
+        background-color: #f2f2f2;
+        padding: 20px 0;
+    }
+    
+    .footer-links div {
+        width: 30%;
+    }
+    
+    .footer-links h3 {
+        color: #b82526;
+        font-size: 12rem;
+    }
+    
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-links ul li {
+        margin: 5px ;
+    }
+    
+    .footer-links ul li a {
+        color: #000;
+        text-decoration: none;
     }
 }
