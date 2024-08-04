@@ -277,67 +277,56 @@ main {
         }
 
     .header-content p {
-        font-size: 10px;
+        font-size: 8px;
     }
-    .btn-1{
-        display: inline-block;
+
+    .menu {
+        padding: 10px 15px;
+    }
+
+    .menu .logo img {
+        width: 45px;
+    }
+
+    .menu .navbar ul li a {
+        padding: 18px;
+        font-size: 17px;
+    }
+
+    .header-Info h1 {
+        font-size: 28px;
+    }
+
+    .header-Info p {
+        font-size: 19px;
+    }
+
+    .btn-1 {
         padding: 10px ;
-        border-radius: 10px;
-        background-color: crimson;
-        font-size: 10px;
-        color: white;
-        text-transform: uppercase;
-    }
-    
-
-    .siman-1 h2 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
-    .siman-1 p {
+    .btn-2 {
+        padding: 5px 20px;
         font-size: 12px;
     }
 
+    .siman-1, .siman-2 {
+        flex: 1 1 48%;
+    }
+
     .siman-2 img {
-        width: 50%;
-        margin-bottom: 10px;
+        width: 95%;
     }
 
-    nav ul li {
-        margin: 0.2rem;
-      }
-    
+    .social-media img {
+        height: 35px;
+        margin: 0 15px;
+    }
 
-    .navbar li {
-        margin: 0.2rem;
-    }
-    .footer-links {
-        display: flex;
-        justify-content: space-around;
-        background-color: #f2f2f2;
-        padding: 20px 0;
-    }
-    
-    .footer-links div {
-        width: 30%;
-    }
-    
-    .footer-links h3 {
-        color: #b82526;
-        font-size: 12rem;
-    }
-    
-    .footer-links ul {
-        list-style: none;
-        padding: 0;
-    }
-    
-    .footer-links ul li {
-        margin: 5px ;
-    }
-    
-    .footer-links ul li a {
-        color: #000;
-        text-decoration: none;
+    .app-links img {
+        height: 35px;
+        margin: 0 8px;
     }
 }
+    
