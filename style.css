@@ -269,14 +269,26 @@ main {
 }
 
 /* Móviles pequeños */
-@media (max-width: 365px 617px) {
-    .header-content h1 {
-        font-size: 20px;
-    }
+
+    @media (max-width: 576px) {
+        .header-content h1  {
+          padding: .8rem;
+          justify-content: space-between;
+        }
 
     .header-content p {
-        font-size: 12px;
+        font-size: 10px;
     }
+    .btn-1{
+        display: inline-block;
+        padding: 10px ;
+        border-radius: 10px;
+        background-color: crimson;
+        font-size: 10px;
+        color: white;
+        text-transform: uppercase;
+    }
+    
 
     .siman-1 h2 {
         font-size: 16px;
@@ -291,12 +303,12 @@ main {
         margin-bottom: 10px;
     }
 
-    .navbar ul {
-        flex-direction: column;
-        align-items: center;
-    }
+    nav ul li {
+        margin: 0.2rem;
+      }
+    
 
     .navbar li {
-        margin: 5px 0;
+        margin: 0.2rem;
     }
 }
