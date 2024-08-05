@@ -270,7 +270,7 @@ main {
 
 /* Móviles pequeños */
 
-    @media (max-width: 576px) {
+    @media (max-width: 400px) {
         .header-content h1  {
           padding: .8rem;
           justify-content: space-between;
@@ -292,8 +292,10 @@ main {
     
         .menu .logo img {
             width: 30px; /* Reducir el tamaño del logo */
+            align-items: left;
         }
-    }
+
+    
 
     .header-content p {
         font-size: 10px;
@@ -360,3 +362,4 @@ main {
         text-decoration: none;
     }
 }
+
